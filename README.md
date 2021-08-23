@@ -11,13 +11,13 @@ This pattern provides secure connectivity across multiple K8s cluster. App traff
 
 ![voltmesh_pattern1](./docs/pics/voltmesh_pattern1.png)
 
-2. VoltMesh Firewall to the external service
+## 2. VoltMesh Firewall to the external service
 
 VoltMesh can apply L3-L4 Firewall and L7 HTTP based Firewall to app traffic to external service.
 
 ![voltmesh_pattern2](./docs/pics/voltmesh_pattern2.png)
 
-3. Internet connectivity to the kubernetes Service
+## 3. Internet connectivity to the kubernetes Service
 
 Volterra Global Network provides Global IP address to bypass the user service on k8s via VoltMesh. Traffic between Volterra Global Network and VoltMesh is encrypted.
 
